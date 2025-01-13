@@ -20,7 +20,8 @@ Fingerprints for ACE dataset were compared. We found that MD-IFP library gives a
 We also found out that there were errors for some of the ligands during computation of the IF using PROLIFE libraries. In most of the cases ArgumentError arised, because of the explicit valence for nitrogen atom (ADA, FA7 datasets) or for oxygen atom (DEF). There is one error with the inability to kekulize the BRAF dataset.
 
 Computational code for molecular dynamics and fingerprint calculations using PROLIFE library presenter via link: https://github.com/AnastasiyaKrokhina/Hackathon2024
- 
+ ![image](https://github.com/user-attachments/assets/cc055e95-a6fe-4a1e-93a0-88d6adbd512c)
+
 ## Discussion
 
 The combination of molecular docking with interaction fingerprints allows for a detailed analysis of protein-ligand interactions. By using multiple libraries for IFP calculation, we ensured a comprehensive assessment of the binding modes and interactions. This approach facilitated the prioritization of virtual screening results and provided structural hypotheses for lead optimization.
